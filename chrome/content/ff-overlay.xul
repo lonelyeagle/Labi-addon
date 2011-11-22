@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://labi_on_firefox/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://labi_on_firefox/locale/overlay.dtd">
+<overlay id="labi_on_firefox-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="ff-overlay.js"/>
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="labi_on_firefox-strings" src="chrome://labi_on_firefox/locale/overlay.properties"/>
+  </stringbundleset>
+  <toolbarpalette id="BrowserToolbarPalette">
+    <toolbarbutton id="labi_on_firefox-toolbar-button" class="toolbarbutton-1 chromeclass-toolbar-additional"
+                   label="&labi_on_firefoxToolbarButton.label;" tooltiptext="&labi_on_firefoxToolbarButton.tooltip;"
+                   oncommand="labi_on_firefox.onToolbarButtonCommand()"/>
+  </toolbarpalette>
+  <popup id="contentAreaContextMenu">
+    <menuitem id="context-labi_on_firefox" label="&labi_on_firefoxContext.label;"
+              accesskey="&labi_on_firefoxContext.accesskey;"
+              insertafter="context-stop"
+              oncommand="labi_on_firefox.onMenuItemCommand(event)"/>
+  </popup>
+</overlay>

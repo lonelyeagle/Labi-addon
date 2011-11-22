@@ -1,0 +1,5 @@
+content   labi_on_firefox                 chrome/content/
+skin      labi_on_firefox   classic/1.0   chrome/skin/
+locale    labi_on_firefox   en-US         chrome/locale/en-US/
+overlay	chrome://browser/content/browser.xul	chrome://labi_on_firefox/content/ff-overlay.xul
+style	chrome://global/content/customizeToolbar.xul	chrome://labi_on_firefox/skin/overlay.css

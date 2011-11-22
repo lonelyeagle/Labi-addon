@@ -1,0 +1,8 @@
+<!ENTITY labi_on_firefox.label "Your localized menuitem">
+<!ENTITY labi_on_firefoxContext.label "Your Menuitem">
+<!ENTITY labi_on_firefoxContext.accesskey "Y">
+<!ENTITY labi_on_firefoxToolbarButton.label "Your Toolbar Button">
+<!ENTITY labi_on_firefoxToolbarButton.tooltip "This is your toolbar button!">
+<!ENTITY labi_on_firefoxSidebar.label "Your Sidebar">
+<!ENTITY labi_on_firefoxToolbar.name  "example">
+<!ENTITY labi_on_firefoxToolbar.label "This is an example toolbar. You can hide it under View &gt; toolbars &gt; &labi_on_firefoxToolbar.name;">

@@ -1,0 +1,21 @@
+/* This is just an example.  You shouldn't do this. */
+#labi_on_firefox-hello
+{
+}
+#labi_on_firefox-toolbar-button
+{
+  list-style-image: url("chrome://labi_on_firefox/skin/toolbar-button.png");
+  -moz-image-region: rect(0px 24px 24px 0px);
+}
+#labi_on_firefox-toolbar-button:hover
+{
+  -moz-image-region: rect(24px 24px 48px  0px);
+}
+[iconsize="small"] #labi_on_firefox-toolbar-button
+{
+  -moz-image-region: rect( 0px 40px 16px 24px);
+}
+[iconsize="small"] #labi_on_firefox-toolbar-button:hover
+{
+  -moz-image-region: rect(24px 40px 40px 24px);
+}

@@ -6,8 +6,7 @@
         <em:id>labionfirefox@gozap.com</em:id>
         <em:version>0.1</em:version>
         <em:name>LabiOnfirefox</em:name>
-        <em:description>Use Labi service on firefox.
-http://www.labi.com/</em:description>
+        <em:description>Use Labi service on firefox.  http://www.labi.com/</em:description>
         <em:creator>gozap.com</em:creator>
         <em:contributor>Xuan Xie</em:contributor>
         <em:targetApplication>

@@ -11,10 +11,32 @@
         <checkbox id="checkboolpref" preference="boolpref1" label="&checkboolpref.label;" accesskey="&checkboolpref.accesskey;"/>
         <label accesskey="&intpref.accesskey;" control="textintpref">&intpref.label;</label><textbox id="textintpref" preference="intpref1"/>
         <label accesskey="&stringpref.accesskey;" control="textstringpref">&stringpref.label;</label><textbox id="textstringpref" preference="stringpref1"/>
-    <groupbox id="login_register" label="&account;">
+    <groupbox id="login_register">
+		<caption label="&labioption.account;"/>
+		<grid>
+			<columns>
+				<column/>
+				<column/>
+			</columns>
+			<rows>
+				<row>
+					<button id="login" label="&labioption.login"/>
+					<button id="register" label="&labioption.register"/>
+				</row>
+			</rows>
+		</grid>
     </groupbox>
-    <groupbox>
+    <groupbox id="push_complete">
+		<caption label="&labioption.pushcomplete;"/>
+			<columns>
+				<column/>
+				<column/>
+			</columns>
+			<rows>
+				<row>
 
+				</row>
+			</rows>
     </groupbox>
     <groupbox>
 

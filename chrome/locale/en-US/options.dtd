@@ -6,3 +6,5 @@
 <!ENTITY intpref.accesskey "I">
 <!ENTITY stringpref.label "A String Preference">
 <!ENTITY stringpref.accesskey "S">
+<!ENTITY labioption.account "Account">
+<!ENTITY labioption.pushcomplete "When Push Complete">

@@ -31,6 +31,5 @@ labi_on_firefox.onFirefoxLoad = function(event) {
 labi_on_firefox.showFirefoxContextMenu = function(event) {
   // show or hide the menuitem based on what the context menu is on
   document.getElementById("context-labi_on_firefox").hidden = gContextMenu.onImage;
-};
 
 window.addEventListener("load", function () { labi_on_firefox.onFirefoxLoad(); }, false);
